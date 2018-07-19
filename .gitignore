@@ -7,3 +7,6 @@
 !/.npmrc
 !/cmder/
 /cmder/config/.history
+!/atom_editor/
+!OneDriveSetup.exe
+!/sublime_editor/
