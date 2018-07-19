@@ -1,7 +1,9 @@
 /*
 !/.git/
 !/_vimrc
+!/UltiSnips/
 !/.gitconfig
 !/.gitignore
 !/.npmrc
 !/cmder/
+/cmder/config/.history

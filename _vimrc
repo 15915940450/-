@@ -161,8 +161,9 @@ let mapleader=","
     autocmd FileType vue syntax sync fromstart
     autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.javascript
   " }}}
-  " ----- vim-vue ----- {{{
+  " ----- ultisnips ----- {{{
   Plugin 'SirVer/ultisnips'
+    let g:UltiSnipsSnippetDirectories=[$HOME.'/UltiSnips']
     " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
     let g:UltiSnipsExpandTrigger="<tab>"
     let g:UltiSnipsJumpForwardTrigger="<c-b>"
