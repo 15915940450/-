@@ -1,3 +1,17 @@
+# 當前日期時間
 snippet datetime "YYYY/MM/DD hh:mm" w
 `!v strftime("%Y/%m/%d %H:%M")`
 endsnippet
+
+# ecadmin rqs
+snippet ecadmin "api in ecadmin.js"
+rqs(ecadmin.commerceInfo,function(objRps){
+  _.logErr(objRps);
+},{
+  objSendData:sendData
+});
+endsnippet
+
+
+
+#
