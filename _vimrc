@@ -70,7 +70,6 @@ let mapleader=","
   set guifont=Source\ Code\ Variable:h13:cANSI
 " }}}
 
-
 " copy {{{
   syntax on
   " Vim 的默认寄存器和系统剪贴板共享
@@ -92,7 +91,8 @@ let mapleader=","
   filetype off
   set rtp+=$VIM/vimfiles/bundle/Vundle.vim
   call vundle#begin('$VIM/vimfiles/bundle')
-  "  1.vandle,2.nerdtree,3.ctrlp,4.nerdcommenter,5.emmet,6.syntastic,7.bufexplorer,8.maximizer,9.easygrep,10.vue
+  "  1.vandle,2.nerdtree,3.ctrlp,4.nerdcommenter,5.emmet,6.ultisnips,7.syntastic,8.bufexplorer,9.maximizer,10.easygrep,11.vue
+
   " ----- Vundle ----- {{{
   Plugin 'VundleVim/Vundle.vim'
   " }}}
@@ -124,6 +124,14 @@ let mapleader=","
   " }}}
   " ----- emmet-vim ----- {{{
   Plugin 'mattn/emmet-vim'
+  " }}}
+  " ----- ultisnips ----- {{{
+  Plugin 'SirVer/ultisnips'
+    let g:UltiSnipsSnippetDirectories=[$HOME.'/UltiSnips']
+    " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+    let g:UltiSnipsExpandTrigger="<tab>"
+    let g:UltiSnipsJumpForwardTrigger="<c-b>"
+    let g:UltiSnipsJumpBackwardTrigger="<c-z>"
   " }}}
   " ----- syntastic(expo) ----- {{{
   Plugin 'vim-syntastic/syntastic'
@@ -161,14 +169,7 @@ let mapleader=","
     autocmd FileType vue syntax sync fromstart
     autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.javascript
   " }}}
-  " ----- ultisnips ----- {{{
-  Plugin 'SirVer/ultisnips'
-    let g:UltiSnipsSnippetDirectories=[$HOME.'/UltiSnips']
-    " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-    let g:UltiSnipsExpandTrigger="<tab>"
-    let g:UltiSnipsJumpForwardTrigger="<c-b>"
-    let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-  " }}}
+
   filetype on
   call vundle#end()
 " }}}
@@ -255,6 +256,6 @@ let mapleader=","
 " }}}
 
 "1.startup directory(https://stackoverflow.com/questions/1180955/vim-change-start-up-directory)
-:cd C:\Users\ili\AppServ\www\CMS-FrontEnd\ec_src\ili
+:cd C:\Users\ili\AppServ\www
 
 " $
