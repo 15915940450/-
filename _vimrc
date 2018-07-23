@@ -64,9 +64,9 @@ let mapleader=","
   set laststatus=2
   set statusline +=%3*\ %{''.(&fenc!=''?&fenc:&enc).''}
   set statusline +=%4*\ %<%F%*
-  "desert light
   colorscheme snow
-  set background=dark
+  set background=light
+  "desert light dark
   set guifont=Source\ Code\ Variable:h13:cANSI
 " }}}
 
