@@ -91,10 +91,14 @@ let mapleader=","
   filetype off
   set rtp+=$VIM/vimfiles/bundle/Vundle.vim
   call vundle#begin('$VIM/vimfiles/bundle')
-  "  1.vandle,2.nerdtree,3.ctrlp,4.nerdcommenter,5.emmet,6.ultisnips,7.syntastic,8.bufexplorer,9.maximizer,10.easygrep,11.vue
+  "  1.vandle,2.vim-airline,3.nerdtree,4.ctrlp,5.nerdcommenter,6.emmet,7.ultisnips,8.syntastic,9.bufexplorer,10.maximizer,11.easygrep,12.vue
 
   " ----- Vundle ----- {{{
   Plugin 'VundleVim/Vundle.vim'
+  " }}}
+
+  " ----- vim-airline ----- {{{
+  Plugin 'vim-airline/vim-airline'
   " }}}
   " ----- nerdtree ----- {{{
   Plugin 'scrooloose/nerdtree'
