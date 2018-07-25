@@ -217,6 +217,7 @@ let mapleader=","
   nmap <leader>e :e $MYVIMRC<cr>
   nmap <leader>tn :tabnew<cr>
   nmap <leader>tc :tabclose<cr>
+  nmap <leader>r :%s/from/to/g
   nmap <leader>1 :only<cr>
   nmap <leader>nm :NoMatchParen<cr>
   nmap <leader>dm :DoMatchParen<cr>
