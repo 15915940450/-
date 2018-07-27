@@ -14,4 +14,4 @@ unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 tocms=cd C:\Users\ili\AppServ\www\CMS-FrontEnd
-tohome=cd C:\Users\ili
+toili=cd C:\Users\ili
