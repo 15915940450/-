@@ -3,10 +3,19 @@ snippet datetime "YYYY/MM/DD hh:mm" w
 `!v strftime("%Y/%m/%d %H:%M")`
 endsnippet
 
-# ecadmin rqs
+# ecadmin
 snippet ecadmin "api in ecadmin.js"
 rqs(ecadmin.commerceInfo,function(objRps){
   _.logErr(objRps);
+},{
+  objSendData:sendData
+});
+endsnippet
+
+# yApi
+snippet yApi "api in y_api.js"
+vueThis.$rqs(vueThis.$yApi.userList,function(objRps){
+  vueThis.loadingUserList=false;
 },{
   objSendData:sendData
 });
