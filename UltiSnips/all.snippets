@@ -22,5 +22,14 @@ vueThis.$rqs(vueThis.$yApi.userList,function(objRps){
 endsnippet
 
 
+# swal
+snippet swal "sweet alert"
+swal({
+  title:''+objRps.msg,
+  confirmButtonText:'关闭'
+},function(){
+  window.location.reload();
+});
+endsnippet
 
 #
