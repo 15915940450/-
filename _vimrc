@@ -102,7 +102,7 @@ let mapleader=","
   " }}}
   " ----- nerdtree ----- {{{
   Plugin 'scrooloose/nerdtree'
-   let NERDTreeIgnore=['node_modules','NTUSER*','.git']
+   let NERDTreeIgnore=['node_modules','\.git$']
    let NERDTreeBookmarksFile = $VIM . '/NERDTreeBookmarks'
    let NERDTreeMinimalUI = 1
    let NERDTreeBookmarksSort = 1
