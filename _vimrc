@@ -219,6 +219,8 @@ let mapleader=","
   nmap <leader>tc :tabclose<cr>
   nmap <leader>r :%s/from/to/g
   nmap <leader>1 :only<cr>
+  nmap <leader>2 :split<cr>
+  nmap <leader>3 :vsplit<cr>
   nmap <leader>nm :NoMatchParen<cr>
   nmap <leader>dm :DoMatchParen<cr>
   nnoremap <leader><cr> :noh<cr>
