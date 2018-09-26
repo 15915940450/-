@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ChineseOpenConvert",
+		"ColorPicker",
+		"Emmet",
+		"ESLint-Formatter",
+		"GitGutter",
+		"JavaScriptNext - ES6 Syntax",
+		"Package Control",
+		"SCSS",
+		"Sort JavaScript Imports",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-eslint",
+		"Theme - Arc",
+		"Theme - Vim Blackboard",
+		"Vue Syntax Highlight"
+	]
+}

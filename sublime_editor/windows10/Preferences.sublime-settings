@@ -1,0 +1,45 @@
+{
+	"color_scheme": "Packages/Theme - Vim Blackboard/VimBlackboard.tmtheme",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"bootstrap"
+	],
+	"font_face": "DejaVu Sans Mono",
+	"font_size": 13,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	"theme": "Arc Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": true
+}

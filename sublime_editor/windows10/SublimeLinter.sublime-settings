@@ -1,0 +1,20 @@
+// SublimeLinter Settings - User
+{
+  "lint_mode": "load_save",
+  "linters": {
+    "eslint": {
+        "selector": "text.html.vue, source.js - meta.attribute-with-value"
+    }
+  },
+  "show_panel_on_save": "view",
+  "syntax_map": {
+      "html (django)": "html",
+      "html (rails)": "html",
+      "html 5": "html",
+      "javascript (babel)": "javascript",
+      "magicpython": "python",
+      // "php": "html",
+      "python django": "python",
+      "pythonimproved": "python"
+  }
+}

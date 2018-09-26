@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+keypad_minus"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+	{ "keys": ["ctrl+keypad_plus"], "command": "scroll_lines", "args": {"amount": -1.0 } }
+]
