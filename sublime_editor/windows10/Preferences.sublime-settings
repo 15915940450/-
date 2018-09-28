@@ -36,6 +36,7 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Markdown"
 	],
 	"tab_size": 2,
 	"theme": "Arc Dark.sublime-theme",
