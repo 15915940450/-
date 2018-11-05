@@ -113,7 +113,6 @@ let mapleader=","
    let g:NERDTreeDirArrowCollapsible = '-'
    "
    "if exists('g:NERDTreeWinPos')
-       "autocmd vimenter * NERDTree C:\wamp64\www\CMS-FrontEnd
        "autocmd vimenter * NERDTree $HOME\gvimnerdtree
    "endif
   " }}}
@@ -263,6 +262,6 @@ let mapleader=","
 " }}}
 
 "1.startup directory(https://stackoverflow.com/questions/1180955/vim-change-start-up-directory)
-:cd C:\Users\ili\AppServ\www
+:cd $HOME\ili\AppServ\www
 
 " $
