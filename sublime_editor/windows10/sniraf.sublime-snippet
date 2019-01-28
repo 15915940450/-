@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+var rafCallback=function(){
+  //also time
+  es6This.rad++;
+  if(es6This.rad<1e1){
+    console.log(es6This.rad);
+    window.requestAnimationFrame(rafCallback);
+  }
+};
+window.requestAnimationFrame(rafCallback);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sniraf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
