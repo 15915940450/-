@@ -1,13 +1,10 @@
 <snippet>
   <content><![CDATA[
 swal({
-  title:objRps.msg || objRps.result,
-  showCancelButton: true,
-  confirmButtonText: '确定',
-  cancelButtonText:'取消'
-},function(){
-  //確定
-  ${1:THILINA}
+  buttons:['取消','确定'],
+  title:objRps.msg || objRps.result
+}).then(function(value){
+  console.log(value);
 });
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

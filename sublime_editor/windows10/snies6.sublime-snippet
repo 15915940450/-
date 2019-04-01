@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 ${1:xxx}(){
-  var es6This=this;
+  var f=this;
   
-  return es6This;
+  return f;
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

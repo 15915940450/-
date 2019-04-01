@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+switch(${1:chosenCell.row-currentCell.row}){
+case 1:
+  chosenCell.walls[0]=false;
+  currentCell.walls[2]=false;
+  break;
+case -1:
+  break;
+default:
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sniswitch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

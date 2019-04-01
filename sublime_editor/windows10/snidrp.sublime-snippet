@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+//daterangepicker
+pickDateRange(){
+  var f=this;
+  //range初始化
+  \$('.date_range').each(function(){
+    \$(this).daterangepicker(Object.assign({},window.rangeOption,{
+      autoUpdateInput:false
+    }));
+    \$(this).val('').on('apply.daterangepicker',function(b,a){
+      var strStart=_.toSlash(a.startDate._d).slice(0,10);
+      var strEnd=_.toSlash(a.endDate._d).slice(0,10);
+      \$(this).val(strStart+' - '+strEnd);
+    });
+  });
+
+  return f;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>snidrp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
